@@ -27,7 +27,7 @@ const AddProduct = () => {
 
   return (  
     <div className="form-container">  
-      <h2>اضافه کردن محصول</h2>  
+      <h2>اضافه کردن محصول</h2>   
       <form onSubmit={addprd}>  
         <input type="text"onChange={(e) => setTitle(e.target.value)}/>  
         <input  type="number"onChange={(e) => setPrice(e.target.value)}/>  
